@@ -3,7 +3,7 @@
   "svelte": "src/index.js",
   "module": "dist/index.mjs",
   "main": "dist/index.js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Highly customizable svelte components for Google and Facebook authentication.",
   "author": "Aaryak Shah",
   "license": "MIT",
@@ -23,6 +23,8 @@
   ],
   "files": [
     "src",
-    "dist"
+    "dist",
+    "facebook",
+    "google"
   ]
 }
