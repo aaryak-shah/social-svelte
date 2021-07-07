@@ -7,6 +7,10 @@
   "description": "Highly customizable svelte components for Google and Facebook authentication.",
   "author": "Aaryak Shah",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aaryak-shah/social-svelte"
+  },
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -v",
