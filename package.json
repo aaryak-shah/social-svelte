@@ -1,5 +1,5 @@
 {
-  "name": "social-svelte",
+  "name": "@aaryak-shah/social-svelte",
   "svelte": "src/index.js",
   "module": "dist/index.mjs",
   "main": "dist/index.js",
