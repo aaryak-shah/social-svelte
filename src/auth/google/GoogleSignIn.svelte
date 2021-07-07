@@ -19,7 +19,9 @@
         console.log('Image URL: ' + _g_basicProfile.getImageUrl())
         console.log('Email: ' + _g_basicProfile.getEmail()) // This is null if the 'email' scope is not present.
       }
-      window.location.href = window._g_config.redirectUrl
+      if (window._g_config.redirectUrl !== null) {
+        window.location.href = window._g_config.redirectUrl
+      }
     }
 
     window._g_SignIn = (e) => {
