@@ -1,30 +1,32 @@
 {
-  "name": "@aaryak-shah/test-publish",
-  "svelte": "src/index.js",
-  "module": "dist/index.mjs",
-  "main": "dist/index.js",
-  "version": "0.1.1",
+  "name": "social-svelte",
+  "version": "0.2.1",
   "description": "Highly customizable svelte components for Google and Facebook authentication.",
-  "author": "Aaryak Shah",
-  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aaryak-shah/social-svelte"
+    "url": "git+https://github.com/aaryak-shah/social-svelte"
   },
-
-  "devDependencies": {
-    "@rollup/plugin-node-resolve": "^9.0.0",
-    "rollup": "^2.0.0",
-    "rollup-plugin-svelte": "^6.0.0",
-    "svelte": "^3.0.0"
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "svelte": "src/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
   },
   "keywords": [
-    "svelte"
-  ],
-  "files": [
-    "src",
-    "dist",
+    "svelte",
+    "social",
+    "google",
     "facebook",
-    "google"
-  ]
+    "auth",
+    "sign in"
+  ],
+  "author": "Aaryak Shah",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^2.52.8",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-svelte": "^7.1.0",
+    "svelte": "^3.38.3"
+  }
 }
